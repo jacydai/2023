@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BB4B9F429D29B090036C3FA /* _023_Interview_PreparationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4B9F329D29B090036C3FA /* _023_Interview_PreparationApp.swift */; };
+		2BB4B9F629D29B090036C3FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4B9F529D29B090036C3FA /* ContentView.swift */; };
+		2BB4B9F829D29B0B0036C3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB4B9F729D29B0B0036C3FA /* Assets.xcassets */; };
+		2BB4B9FC29D29B0B0036C3FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BB4B9FB29D29B0B0036C3FA /* Preview Assets.xcassets */; };
+		2BB4BA0629D29B0B0036C3FA /* _023_Interview_PreparationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4BA0529D29B0B0036C3FA /* _023_Interview_PreparationTests.swift */; };
+		2BB4BA1029D29B0B0036C3FA /* _023_Interview_PreparationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4BA0F29D29B0B0036C3FA /* _023_Interview_PreparationUITests.swift */; };
+		2BB4BA1229D29B0B0036C3FA /* _023_Interview_PreparationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB4BA1129D29B0B0036C3FA /* _023_Interview_PreparationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BB4BA0229D29B0B0036C3FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB4B9E829D29B090036C3FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB4B9EF29D29B090036C3FA;
+			remoteInfo = "2023 Interview Preparation";
+		};
+		2BB4BA0C29D29B0B0036C3FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BB4B9E829D29B090036C3FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BB4B9EF29D29B090036C3FA;
+			remoteInfo = "2023 Interview Preparation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BB4B9F029D29B090036C3FA /* 2023 Interview Preparation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2023 Interview Preparation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB4B9F329D29B090036C3FA /* _023_Interview_PreparationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _023_Interview_PreparationApp.swift; sourceTree = "<group>"; };
+		2BB4B9F529D29B090036C3FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2BB4B9F729D29B0B0036C3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BB4B9F929D29B0B0036C3FA /* _023_Interview_Preparation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _023_Interview_Preparation.entitlements; sourceTree = "<group>"; };
+		2BB4B9FB29D29B0B0036C3FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BB4BA0129D29B0B0036C3FA /* 2023 Interview PreparationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2023 Interview PreparationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB4BA0529D29B0B0036C3FA /* _023_Interview_PreparationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _023_Interview_PreparationTests.swift; sourceTree = "<group>"; };
+		2BB4BA0B29D29B0B0036C3FA /* 2023 Interview PreparationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2023 Interview PreparationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB4BA0F29D29B0B0036C3FA /* _023_Interview_PreparationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _023_Interview_PreparationUITests.swift; sourceTree = "<group>"; };
+		2BB4BA1129D29B0B0036C3FA /* _023_Interview_PreparationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _023_Interview_PreparationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2BB4BA1E29D29D590036C3FA /* 2023-Interview-Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "2023-Interview-Playground.playground"; path = "../../2023-Interview-Playground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BB4B9ED29D29B090036C3FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB4B9FE29D29B0B0036C3FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB4BA0829D29B0B0036C3FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BB4B9E729D29B090036C3FA = {
+			isa = PBXGroup;
+			children = (
+				2BB4B9F229D29B090036C3FA /* 2023 Interview Preparation */,
+				2BB4BA0429D29B0B0036C3FA /* 2023 Interview PreparationTests */,
+				2BB4BA0E29D29B0B0036C3FA /* 2023 Interview PreparationUITests */,
+				2BB4B9F129D29B090036C3FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BB4B9F129D29B090036C3FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BB4B9F029D29B090036C3FA /* 2023 Interview Preparation.app */,
+				2BB4BA0129D29B0B0036C3FA /* 2023 Interview PreparationTests.xctest */,
+				2BB4BA0B29D29B0B0036C3FA /* 2023 Interview PreparationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BB4B9F229D29B090036C3FA /* 2023 Interview Preparation */ = {
+			isa = PBXGroup;
+			children = (
+				2BB4BA1E29D29D590036C3FA /* 2023-Interview-Playground.playground */,
+				2BB4B9F329D29B090036C3FA /* _023_Interview_PreparationApp.swift */,
+				2BB4B9F529D29B090036C3FA /* ContentView.swift */,
+				2BB4B9F729D29B0B0036C3FA /* Assets.xcassets */,
+				2BB4B9F929D29B0B0036C3FA /* _023_Interview_Preparation.entitlements */,
+				2BB4B9FA29D29B0B0036C3FA /* Preview Content */,
+			);
+			path = "2023 Interview Preparation";
+			sourceTree = "<group>";
+		};
+		2BB4B9FA29D29B0B0036C3FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2BB4B9FB29D29B0B0036C3FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BB4BA0429D29B0B0036C3FA /* 2023 Interview PreparationTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BB4BA0529D29B0B0036C3FA /* _023_Interview_PreparationTests.swift */,
+			);
+			path = "2023 Interview PreparationTests";
+			sourceTree = "<group>";
+		};
+		2BB4BA0E29D29B0B0036C3FA /* 2023 Interview PreparationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BB4BA0F29D29B0B0036C3FA /* _023_Interview_PreparationUITests.swift */,
+				2BB4BA1129D29B0B0036C3FA /* _023_Interview_PreparationUITestsLaunchTests.swift */,
+			);
+			path = "2023 Interview PreparationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BB4B9EF29D29B090036C3FA /* 2023 Interview Preparation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB4BA1529D29B0B0036C3FA /* Build configuration list for PBXNativeTarget "2023 Interview Preparation" */;
+			buildPhases = (
+				2BB4B9EC29D29B090036C3FA /* Sources */,
+				2BB4B9ED29D29B090036C3FA /* Frameworks */,
+				2BB4B9EE29D29B090036C3FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2023 Interview Preparation";
+			productName = "2023 Interview Preparation";
+			productReference = 2BB4B9F029D29B090036C3FA /* 2023 Interview Preparation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BB4BA0029D29B0B0036C3FA /* 2023 Interview PreparationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB4BA1829D29B0B0036C3FA /* Build configuration list for PBXNativeTarget "2023 Interview PreparationTests" */;
+			buildPhases = (
+				2BB4B9FD29D29B0B0036C3FA /* Sources */,
+				2BB4B9FE29D29B0B0036C3FA /* Frameworks */,
+				2BB4B9FF29D29B0B0036C3FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB4BA0329D29B0B0036C3FA /* PBXTargetDependency */,
+			);
+			name = "2023 Interview PreparationTests";
+			productName = "2023 Interview PreparationTests";
+			productReference = 2BB4BA0129D29B0B0036C3FA /* 2023 Interview PreparationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BB4BA0A29D29B0B0036C3FA /* 2023 Interview PreparationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BB4BA1B29D29B0B0036C3FA /* Build configuration list for PBXNativeTarget "2023 Interview PreparationUITests" */;
+			buildPhases = (
+				2BB4BA0729D29B0B0036C3FA /* Sources */,
+				2BB4BA0829D29B0B0036C3FA /* Frameworks */,
+				2BB4BA0929D29B0B0036C3FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BB4BA0D29D29B0B0036C3FA /* PBXTargetDependency */,
+			);
+			name = "2023 Interview PreparationUITests";
+			productName = "2023 Interview PreparationUITests";
+			productReference = 2BB4BA0B29D29B0B0036C3FA /* 2023 Interview PreparationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BB4B9E829D29B090036C3FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2BB4B9EF29D29B090036C3FA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					2BB4BA0029D29B0B0036C3FA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2BB4B9EF29D29B090036C3FA;
+					};
+					2BB4BA0A29D29B0B0036C3FA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2BB4B9EF29D29B090036C3FA;
+					};
+				};
+			};
+			buildConfigurationList = 2BB4B9EB29D29B090036C3FA /* Build configuration list for PBXProject "2023 Interview Preparation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BB4B9E729D29B090036C3FA;
+			productRefGroup = 2BB4B9F129D29B090036C3FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BB4B9EF29D29B090036C3FA /* 2023 Interview Preparation */,
+				2BB4BA0029D29B0B0036C3FA /* 2023 Interview PreparationTests */,
+				2BB4BA0A29D29B0B0036C3FA /* 2023 Interview PreparationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BB4B9EE29D29B090036C3FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB4B9FC29D29B0B0036C3FA /* Preview Assets.xcassets in Resources */,
+				2BB4B9F829D29B0B0036C3FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB4B9FF29D29B0B0036C3FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB4BA0929D29B0B0036C3FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BB4B9EC29D29B090036C3FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB4B9F629D29B090036C3FA /* ContentView.swift in Sources */,
+				2BB4B9F429D29B090036C3FA /* _023_Interview_PreparationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB4B9FD29D29B0B0036C3FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB4BA0629D29B0B0036C3FA /* _023_Interview_PreparationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB4BA0729D29B0B0036C3FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB4BA1229D29B0B0036C3FA /* _023_Interview_PreparationUITestsLaunchTests.swift in Sources */,
+				2BB4BA1029D29B0B0036C3FA /* _023_Interview_PreparationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BB4BA0329D29B0B0036C3FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BB4B9EF29D29B090036C3FA /* 2023 Interview Preparation */;
+			targetProxy = 2BB4BA0229D29B0B0036C3FA /* PBXContainerItemProxy */;
+		};
+		2BB4BA0D29D29B0B0036C3FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BB4B9EF29D29B090036C3FA /* 2023 Interview Preparation */;
+			targetProxy = 2BB4BA0C29D29B0B0036C3FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BB4BA1329D29B0B0036C3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BB4BA1429D29B0B0036C3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2BB4BA1629D29B0B0036C3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "2023 Interview Preparation/_023_Interview_Preparation.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"2023 Interview Preparation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextStep.-023-Interview-Preparation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BB4BA1729D29B0B0036C3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "2023 Interview Preparation/_023_Interview_Preparation.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"2023 Interview Preparation/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextStep.-023-Interview-Preparation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BB4BA1929D29B0B0036C3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextStep.-023-Interview-PreparationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2023 Interview Preparation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2023 Interview Preparation";
+			};
+			name = Debug;
+		};
+		2BB4BA1A29D29B0B0036C3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextStep.-023-Interview-PreparationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2023 Interview Preparation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2023 Interview Preparation";
+			};
+			name = Release;
+		};
+		2BB4BA1C29D29B0B0036C3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextStep.-023-Interview-PreparationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2023 Interview Preparation";
+			};
+			name = Debug;
+		};
+		2BB4BA1D29D29B0B0036C3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextStep.-023-Interview-PreparationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2023 Interview Preparation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BB4B9EB29D29B090036C3FA /* Build configuration list for PBXProject "2023 Interview Preparation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB4BA1329D29B0B0036C3FA /* Debug */,
+				2BB4BA1429D29B0B0036C3FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB4BA1529D29B0B0036C3FA /* Build configuration list for PBXNativeTarget "2023 Interview Preparation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB4BA1629D29B0B0036C3FA /* Debug */,
+				2BB4BA1729D29B0B0036C3FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB4BA1829D29B0B0036C3FA /* Build configuration list for PBXNativeTarget "2023 Interview PreparationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB4BA1929D29B0B0036C3FA /* Debug */,
+				2BB4BA1A29D29B0B0036C3FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BB4BA1B29D29B0B0036C3FA /* Build configuration list for PBXNativeTarget "2023 Interview PreparationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BB4BA1C29D29B0B0036C3FA /* Debug */,
+				2BB4BA1D29D29B0B0036C3FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BB4B9E829D29B090036C3FA /* Project object */;
+}
