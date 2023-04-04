@@ -34,18 +34,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2BB4B9F029D29B090036C3FA /* 2023 Interview Preparation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2023 Interview Preparation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB4B9F029D29B090036C3FA /* 2023InterviewPreparation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2023InterviewPreparation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB4B9F329D29B090036C3FA /* _023_Interview_PreparationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _023_Interview_PreparationApp.swift; sourceTree = "<group>"; };
 		2BB4B9F529D29B090036C3FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2BB4B9F729D29B0B0036C3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BB4B9F929D29B0B0036C3FA /* _023_Interview_Preparation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _023_Interview_Preparation.entitlements; sourceTree = "<group>"; };
 		2BB4B9FB29D29B0B0036C3FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2BB4BA0129D29B0B0036C3FA /* 2023 Interview PreparationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2023 Interview PreparationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB4BA0129D29B0B0036C3FA /* 2023InterviewPreparationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2023InterviewPreparationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB4BA0529D29B0B0036C3FA /* _023_Interview_PreparationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _023_Interview_PreparationTests.swift; sourceTree = "<group>"; };
-		2BB4BA0B29D29B0B0036C3FA /* 2023 Interview PreparationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2023 Interview PreparationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB4BA0B29D29B0B0036C3FA /* 2023InterviewPreparationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2023InterviewPreparationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB4BA0F29D29B0B0036C3FA /* _023_Interview_PreparationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _023_Interview_PreparationUITests.swift; sourceTree = "<group>"; };
 		2BB4BA1129D29B0B0036C3FA /* _023_Interview_PreparationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _023_Interview_PreparationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2BB4BA1E29D29D590036C3FA /* 2023-Interview-Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "2023-Interview-Playground.playground"; path = "../../2023-Interview-Playground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		2BD9963A29D35D1800088431 /* 01-SortAlgorithm.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "01-SortAlgorithm.playground"; path = "2023 Interview Preparation/playground/01-SortAlgorithm.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +77,7 @@
 		2BB4B9E729D29B090036C3FA = {
 			isa = PBXGroup;
 			children = (
+				2BD9963A29D35D1800088431 /* 01-SortAlgorithm.playground */,
 				2BB4B9F229D29B090036C3FA /* 2023 Interview Preparation */,
 				2BB4BA0429D29B0B0036C3FA /* 2023 Interview PreparationTests */,
 				2BB4BA0E29D29B0B0036C3FA /* 2023 Interview PreparationUITests */,
@@ -86,9 +88,9 @@
 		2BB4B9F129D29B090036C3FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2BB4B9F029D29B090036C3FA /* 2023 Interview Preparation.app */,
-				2BB4BA0129D29B0B0036C3FA /* 2023 Interview PreparationTests.xctest */,
-				2BB4BA0B29D29B0B0036C3FA /* 2023 Interview PreparationUITests.xctest */,
+				2BB4B9F029D29B090036C3FA /* 2023InterviewPreparation.app */,
+				2BB4BA0129D29B0B0036C3FA /* 2023InterviewPreparationTests.xctest */,
+				2BB4BA0B29D29B0B0036C3FA /* 2023InterviewPreparationUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2BB4B9EF29D29B090036C3FA /* 2023 Interview Preparation */ = {
+		2BB4B9EF29D29B090036C3FA /* 2023InterviewPreparation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BB4BA1529D29B0B0036C3FA /* Build configuration list for PBXNativeTarget "2023 Interview Preparation" */;
+			buildConfigurationList = 2BB4BA1529D29B0B0036C3FA /* Build configuration list for PBXNativeTarget "2023InterviewPreparation" */;
 			buildPhases = (
 				2BB4B9EC29D29B090036C3FA /* Sources */,
 				2BB4B9ED29D29B090036C3FA /* Frameworks */,
@@ -146,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = "2023 Interview Preparation";
+			name = 2023InterviewPreparation;
 			productName = "2023 Interview Preparation";
-			productReference = 2BB4B9F029D29B090036C3FA /* 2023 Interview Preparation.app */;
+			productReference = 2BB4B9F029D29B090036C3FA /* 2023InterviewPreparation.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2BB4BA0029D29B0B0036C3FA /* 2023 Interview PreparationTests */ = {
+		2BB4BA0029D29B0B0036C3FA /* 2023InterviewPreparationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BB4BA1829D29B0B0036C3FA /* Build configuration list for PBXNativeTarget "2023 Interview PreparationTests" */;
+			buildConfigurationList = 2BB4BA1829D29B0B0036C3FA /* Build configuration list for PBXNativeTarget "2023InterviewPreparationTests" */;
 			buildPhases = (
 				2BB4B9FD29D29B0B0036C3FA /* Sources */,
 				2BB4B9FE29D29B0B0036C3FA /* Frameworks */,
@@ -164,14 +166,14 @@
 			dependencies = (
 				2BB4BA0329D29B0B0036C3FA /* PBXTargetDependency */,
 			);
-			name = "2023 Interview PreparationTests";
+			name = 2023InterviewPreparationTests;
 			productName = "2023 Interview PreparationTests";
-			productReference = 2BB4BA0129D29B0B0036C3FA /* 2023 Interview PreparationTests.xctest */;
+			productReference = 2BB4BA0129D29B0B0036C3FA /* 2023InterviewPreparationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2BB4BA0A29D29B0B0036C3FA /* 2023 Interview PreparationUITests */ = {
+		2BB4BA0A29D29B0B0036C3FA /* 2023InterviewPreparationUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BB4BA1B29D29B0B0036C3FA /* Build configuration list for PBXNativeTarget "2023 Interview PreparationUITests" */;
+			buildConfigurationList = 2BB4BA1B29D29B0B0036C3FA /* Build configuration list for PBXNativeTarget "2023InterviewPreparationUITests" */;
 			buildPhases = (
 				2BB4BA0729D29B0B0036C3FA /* Sources */,
 				2BB4BA0829D29B0B0036C3FA /* Frameworks */,
@@ -182,9 +184,9 @@
 			dependencies = (
 				2BB4BA0D29D29B0B0036C3FA /* PBXTargetDependency */,
 			);
-			name = "2023 Interview PreparationUITests";
+			name = 2023InterviewPreparationUITests;
 			productName = "2023 Interview PreparationUITests";
-			productReference = 2BB4BA0B29D29B0B0036C3FA /* 2023 Interview PreparationUITests.xctest */;
+			productReference = 2BB4BA0B29D29B0B0036C3FA /* 2023InterviewPreparationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2BB4B9EB29D29B090036C3FA /* Build configuration list for PBXProject "2023 Interview Preparation" */;
+			buildConfigurationList = 2BB4B9EB29D29B090036C3FA /* Build configuration list for PBXProject "2023InterviewPreparation" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2BB4B9EF29D29B090036C3FA /* 2023 Interview Preparation */,
-				2BB4BA0029D29B0B0036C3FA /* 2023 Interview PreparationTests */,
-				2BB4BA0A29D29B0B0036C3FA /* 2023 Interview PreparationUITests */,
+				2BB4B9EF29D29B090036C3FA /* 2023InterviewPreparation */,
+				2BB4BA0029D29B0B0036C3FA /* 2023InterviewPreparationTests */,
+				2BB4BA0A29D29B0B0036C3FA /* 2023InterviewPreparationUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -288,12 +290,12 @@
 /* Begin PBXTargetDependency section */
 		2BB4BA0329D29B0B0036C3FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2BB4B9EF29D29B090036C3FA /* 2023 Interview Preparation */;
+			target = 2BB4B9EF29D29B090036C3FA /* 2023InterviewPreparation */;
 			targetProxy = 2BB4BA0229D29B0B0036C3FA /* PBXContainerItemProxy */;
 		};
 		2BB4BA0D29D29B0B0036C3FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2BB4B9EF29D29B090036C3FA /* 2023 Interview Preparation */;
+			target = 2BB4B9EF29D29B090036C3FA /* 2023InterviewPreparation */;
 			targetProxy = 2BB4BA0C29D29B0B0036C3FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -498,7 +500,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2023 Interview Preparation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2023 Interview Preparation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2023InterviewPreparation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2023InterviewPreparation";
 			};
 			name = Debug;
 		};
@@ -520,7 +522,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2023 Interview Preparation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2023 Interview Preparation";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2023InterviewPreparation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/2023InterviewPreparation";
 			};
 			name = Release;
 		};
@@ -569,7 +571,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BB4B9EB29D29B090036C3FA /* Build configuration list for PBXProject "2023 Interview Preparation" */ = {
+		2BB4B9EB29D29B090036C3FA /* Build configuration list for PBXProject "2023InterviewPreparation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BB4BA1329D29B0B0036C3FA /* Debug */,
@@ -578,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BB4BA1529D29B0B0036C3FA /* Build configuration list for PBXNativeTarget "2023 Interview Preparation" */ = {
+		2BB4BA1529D29B0B0036C3FA /* Build configuration list for PBXNativeTarget "2023InterviewPreparation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BB4BA1629D29B0B0036C3FA /* Debug */,
@@ -587,7 +589,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BB4BA1829D29B0B0036C3FA /* Build configuration list for PBXNativeTarget "2023 Interview PreparationTests" */ = {
+		2BB4BA1829D29B0B0036C3FA /* Build configuration list for PBXNativeTarget "2023InterviewPreparationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BB4BA1929D29B0B0036C3FA /* Debug */,
@@ -596,7 +598,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BB4BA1B29D29B0B0036C3FA /* Build configuration list for PBXNativeTarget "2023 Interview PreparationUITests" */ = {
+		2BB4BA1B29D29B0B0036C3FA /* Build configuration list for PBXNativeTarget "2023InterviewPreparationUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BB4BA1C29D29B0B0036C3FA /* Debug */,
